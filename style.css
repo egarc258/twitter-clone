@@ -1,0 +1,87 @@
+/* Reset basic styles */
+body, h1, p, input, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the login page */
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Login/Signup form styling */
+#login-form input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1DA1F2;
+}
+
+/* Feed Page styles */
+header {
+    background-color: #1DA1F2;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#logout {
+    background-color: #ff3333;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#logout:hover {
+    background-color: #cc0000;
+}
+
+/* Tweet Form */
+.tweet-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#tweet-content {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#feed {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.tweet {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
