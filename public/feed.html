@@ -5,19 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Twitter Clone - Feed</title>
     <link rel="stylesheet" href="style.css">
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        rel="stylesheet"
+    >
 </head>
 <body>
-    <h1>Twitter Clone</h1>
-
-    <!-- Tweet Form -->
-    <form id="tweetForm">
-        <input type="text" id="tweetInput" placeholder="What's on your mind?" required>
-        <button type="submit">Tweet</button>
-    </form>
-
-    <!-- Tweets Display -->
-    <div id="tweetsContainer"></div>
-
+    <header class="header">
+        <h1>My Twitter Clone</h1>
+    </header>
+    <main class="feed-container">
+        <form id="tweetForm" class="tweet-form">
+            <textarea id="tweetInput" placeholder="What's happening?" maxlength="280"></textarea>
+            <button type="submit">Tweet</button>
+        </form>
+        <section id="tweetsContainer" class="tweets-container">
+            <!-- Tweets will appear here -->
+        </section>
+    </main>
+    <div>
+        This is a tweet
+        <div class="tweet-actions">
+            <i class="fas fa-heart"></i> 10
+            <i class="fas fa-retweet"></i> 2
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
